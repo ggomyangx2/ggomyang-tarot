@@ -17,14 +17,19 @@
 
 html { scroll-behavior: smooth; }
 
-body {
-  margin: 0;
-  min-height: 100vh;
-  color: var(--paper);
-  font-family: "Gowun Dodum", system-ui, sans-serif;
-  background:
-    radial-gradient(circle at top, rgba(116, 88, 145, .28), transparent 34rem),
-    linear-gradient(180deg, var(--bg), var(--bg-deep));
+body{
+    margin:0;
+    min-height:100vh;
+
+    background-image:url("https://github.com/ggomyangx2/ggomyang-tarot/edit/main/style.css#:~:text=5aed4e8ae5dcbb47ff5514ca77745955");
+
+    background-size:cover;
+
+    background-position:center;
+
+    background-repeat:repeat;
+
+    background-attachment:fixed;
 }
 
 button { font: inherit; }
