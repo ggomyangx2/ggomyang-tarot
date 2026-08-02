@@ -55,6 +55,23 @@ button { font: inherit; }
 
 .hidden { display: none !important; }
 
+/* 영상 위의 별 효과 */
+.stars,
+.stars::before,
+.stars::after {
+  position: fixed;
+  inset: 0;
+  z-index: 2;
+  pointer-events: none;
+  content: "";
+  background-image:
+    radial-gradient(circle, rgba(255, 255, 255, 0.7) 1px, transparent 1.5px),
+    radial-gradient(circle, rgba(234, 217, 168, 0.6) 1px, transparent 1.5px);
+  background-position: 0 0, 23px 41px;
+  background-size: 74px 74px, 113px 113px;
+  opacity: 0;
+}
+
 
 /* 가장 앞쪽: 실제 글씨와 사이트 내용 */
 .app-shell {
