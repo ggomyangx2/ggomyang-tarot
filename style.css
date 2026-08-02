@@ -48,7 +48,7 @@ body::before {
   inset: 0;
   z-index: 1;
   pointer-events: none;
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(0, 0, 0, 5);
 }
 
 button { font: inherit; }
@@ -69,7 +69,7 @@ button { font: inherit; }
     radial-gradient(circle, rgba(234, 217, 168, 0.6) 1px, transparent 1.5px);
   background-position: 0 0, 23px 41px;
   background-size: 74px 74px, 113px 113px;
-  opacity: 0.35;
+  opacity: 0;
 }
 
 /* 가장 앞쪽: 실제 글씨와 사이트 내용 */
