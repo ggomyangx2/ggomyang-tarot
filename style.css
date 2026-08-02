@@ -25,6 +25,22 @@ body {
   background:#000;
 }
 
+#bgVideo{
+
+    position:fixed;
+
+    top:0;
+    left:0;
+
+    width:100%;
+    height:100%;
+
+    object-fit:cover;
+
+    z-index:-2;
+
+}
+
 button { font: inherit; }
 
 .hidden { display: none !important; }
@@ -415,18 +431,4 @@ footer {
     transition-duration: .01ms !important;
   }
 }
-#bgVideo{
 
-    position:fixed;
-
-    top:0;
-    left:0;
-
-    width:100%;
-    height:100%;
-
-    object-fit:cover;
-
-    z-index:-2;
-
-}
