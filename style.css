@@ -22,7 +22,6 @@ body {
   min-height: 100vh;
   color: var(--paper);
   font-family: "Gowun Dodum", system-ui, sans-serif;
-  background:#000;
 }
 
 button { font: inherit; }
