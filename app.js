@@ -2,10 +2,10 @@
 const STORAGE_KEY = "ggomyangTarotDailyResult.v1";
 const DAY_KEY = "ggomyangTarotDailyDate.v1";
 
+const mainCardSection = document.querySelector(".main-card-section");
 const shuffleView = document.querySelector("#shuffleView");
 const resultView = document.querySelector("#resultView");
 const mainDrawButton = document.querySelector("#mainDrawButton");
-const restoreButton = document.querySelector("#restoreButton");
 const shareButton = document.querySelector("#shareButton");
 const resetButton = document.querySelector("#resetButton");
 
@@ -158,16 +158,9 @@ function resetForTesting() {
 }
 
 mainDrawButton.addEventListener("click", handleDraw);
-restoreButton.addEventListener("click", () => {
-  const result = getSavedResult();
-  if (result) renderResult(result);
-});
 shareButton.addEventListener("click", shareResult);
 resetButton.addEventListener("click", resetForTesting);
 
 const saved = getSavedResult();
 if (saved) {
   restoreButton.classList.remove("hidden");
-  drawButton.querySelector("span").textContent = "오늘의 카드 확인하기";
-  drawButton.querySelector("small").textContent = "이미 뽑은 결과가 있어요";
-}
