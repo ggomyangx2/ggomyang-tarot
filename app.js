@@ -6,6 +6,7 @@ const introView = document.querySelector("#introView");
 const shuffleView = document.querySelector("#shuffleView");
 const resultView = document.querySelector("#resultView");
 const drawButton = document.querySelector("#drawButton");
+const mainDrawButton = document.querySelector("#mainDrawButton");
 const restoreButton = document.querySelector("#restoreButton");
 const shareButton = document.querySelector("#shareButton");
 const resetButton = document.querySelector("#resetButton");
