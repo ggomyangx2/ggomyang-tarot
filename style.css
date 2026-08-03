@@ -297,7 +297,7 @@ button { font: inherit; }
 .tarot-card.reversed { transform: rotate(180deg); }
 
 .card-image-wrap {
-  height: calc(100% - 54px);
+  height: 100%;
   overflow: hidden;
   border: 1px solid rgba(234,217,168,.55);
   border-radius: 10px 10px 4px 4px;
@@ -328,7 +328,7 @@ button { font: inherit; }
 .stars-mark { letter-spacing: .4em; }
 
 .card-nameplate {
-  display: grid;
+  display: none;
   min-height: 54px;
   grid-template-columns: 34px 1fr;
   align-items: center;
