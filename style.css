@@ -78,8 +78,8 @@ button { font: inherit; }
 
 .main-card-wrap {
   position: relative;
-  width: 100%;
-  max-width: 460px;
+  width: 88%;
+  max-width: 385px;
   margin: 0 auto;
 }
 
