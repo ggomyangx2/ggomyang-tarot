@@ -1,8 +1,6 @@
 window.TAROT_CARDS = [
   {
     "id": 0,
-    "number": "0",
-    "nameEn": "THE FOOL",
     "nameKo": "바보",
     "image": "./assets/cards/00-the-fool.webp",
     "upright": {
@@ -40,8 +38,6 @@ window.TAROT_CARDS = [
   },
   {
     "id": 1,
-    "number": "I",
-    "nameEn": "THE MAGICIAN",
     "nameKo": "마법사",
     "image": "./assets/cards/01-the-magician.webp",
     "upright": {
@@ -79,8 +75,6 @@ window.TAROT_CARDS = [
   },
   {
     "id": 2,
-    "number": "II",
-    "nameEn": "THE HIGH PRIESTESS",
     "nameKo": "여사제",
     "image": "./assets/cards/02-the-high-priestess.webp",
     "upright": {
@@ -118,8 +112,6 @@ window.TAROT_CARDS = [
   },
   {
     "id": 3,
-    "number": "III",
-    "nameEn": "THE EMPRESS",
     "nameKo": "여황제",
     "image": "./assets/cards/03-the-empress.webp",
     "upright": {
@@ -157,8 +149,6 @@ window.TAROT_CARDS = [
   },
   {
     "id": 4,
-    "number": "IV",
-    "nameEn": "THE EMPEROR",
     "nameKo": "황제",
     "image": "./assets/cards/04-the-emperor.webp",
     "upright": {
@@ -196,8 +186,6 @@ window.TAROT_CARDS = [
   },
   {
     "id": 5,
-    "number": "V",
-    "nameEn": "THE HIEROPHANT",
     "nameKo": "교황",
     "image": "./assets/cards/05-the-hierophant.webp",
     "upright": {
@@ -235,8 +223,6 @@ window.TAROT_CARDS = [
   },
   {
     "id": 6,
-    "number": "VI",
-    "nameEn": "THE LOVERS",
     "nameKo": "연인",
     "image": "./assets/cards/06-the-lovers.webp",
     "upright": {
@@ -274,8 +260,6 @@ window.TAROT_CARDS = [
   },
   {
     "id": 7,
-    "number": "VII",
-    "nameEn": "THE CHARIOT",
     "nameKo": "전차",
     "image": "./assets/cards/07-the-chariot.webp",
     "upright": {
@@ -313,8 +297,6 @@ window.TAROT_CARDS = [
   },
   {
     "id": 8,
-    "number": "VIII",
-    "nameEn": "STRENGTH",
     "nameKo": "힘",
     "image": "./assets/cards/08-strength.webp",
     "upright": {
@@ -352,8 +334,6 @@ window.TAROT_CARDS = [
   },
   {
     "id": 9,
-    "number": "IX",
-    "nameEn": "THE HERMIT",
     "nameKo": "은둔자",
     "image": "./assets/cards/09-the-hermit.webp",
     "upright": {
@@ -391,8 +371,6 @@ window.TAROT_CARDS = [
   },
   {
     "id": 10,
-    "number": "X",
-    "nameEn": "WHEEL OF FORTUNE",
     "nameKo": "운명의 수레바퀴",
     "image": "./assets/cards/10-wheel-of-fortune.webp",
     "upright": {
@@ -430,8 +408,6 @@ window.TAROT_CARDS = [
   },
   {
     "id": 11,
-    "number": "XI",
-    "nameEn": "JUSTICE",
     "nameKo": "정의",
     "image": "./assets/cards/11-justice.webp",
     "upright": {
@@ -469,8 +445,6 @@ window.TAROT_CARDS = [
   },
   {
     "id": 12,
-    "number": "XII",
-    "nameEn": "THE HANGED MAN",
     "nameKo": "매달린 사람",
     "image": "./assets/cards/12-the-hanged-man.webp",
     "upright": {
@@ -508,8 +482,6 @@ window.TAROT_CARDS = [
   },
   {
     "id": 13,
-    "number": "XIII",
-    "nameEn": "DEATH",
     "nameKo": "죽음",
     "image": "./assets/cards/13-death.webp",
     "upright": {
@@ -547,8 +519,6 @@ window.TAROT_CARDS = [
   },
   {
     "id": 14,
-    "number": "XIV",
-    "nameEn": "TEMPERANCE",
     "nameKo": "절제",
     "image": "./assets/cards/14-temperance.webp",
     "upright": {
@@ -586,8 +556,6 @@ window.TAROT_CARDS = [
   },
   {
     "id": 15,
-    "number": "XV",
-    "nameEn": "THE DEVIL",
     "nameKo": "악마",
     "image": "./assets/cards/15-the-devil.webp",
     "upright": {
@@ -625,8 +593,6 @@ window.TAROT_CARDS = [
   },
   {
     "id": 16,
-    "number": "XVI",
-    "nameEn": "THE TOWER",
     "nameKo": "탑",
     "image": "./assets/cards/16-the-tower.webp",
     "upright": {
@@ -664,8 +630,6 @@ window.TAROT_CARDS = [
   },
   {
     "id": 17,
-    "number": "XVII",
-    "nameEn": "THE STAR",
     "nameKo": "별",
     "image": "./assets/cards/17-the-star.webp",
     "upright": {
@@ -703,8 +667,6 @@ window.TAROT_CARDS = [
   },
   {
     "id": 18,
-    "number": "XVIII",
-    "nameEn": "THE MOON",
     "nameKo": "달",
     "image": "./assets/cards/18-the-moon.webp",
     "upright": {
@@ -742,8 +704,6 @@ window.TAROT_CARDS = [
   },
   {
     "id": 19,
-    "number": "XIX",
-    "nameEn": "THE SUN",
     "nameKo": "태양",
     "image": "./assets/cards/19-the-sun.webp",
     "upright": {
@@ -781,8 +741,6 @@ window.TAROT_CARDS = [
   },
   {
     "id": 20,
-    "number": "XX",
-    "nameEn": "JUDGEMENT",
     "nameKo": "심판",
     "image": "./assets/cards/20-judgement.webp",
     "upright": {
@@ -820,8 +778,6 @@ window.TAROT_CARDS = [
   },
   {
     "id": 21,
-    "number": "XXI",
-    "nameEn": "THE WORLD",
     "nameKo": "세계",
     "image": "./assets/cards/21-the-world.webp",
     "upright": {
@@ -859,8 +815,6 @@ window.TAROT_CARDS = [
   },
   {
     "id": 22,
-    "number": "22",
-    "nameEn": "ACE OF WANDS",
     "nameKo": "완드 에이스",
     "image": "./assets/cards/22-ace-of-wands.webp",
     "upright": {
@@ -898,8 +852,6 @@ window.TAROT_CARDS = [
   },
   {
     "id": 23,
-    "number": "23",
-    "nameEn": "TWO OF WANDS",
     "nameKo": "완드 2",
     "image": "./assets/cards/23-two-of-wands.webp",
     "upright": {
@@ -937,8 +889,6 @@ window.TAROT_CARDS = [
   },
   {
     "id": 24,
-    "number": "24",
-    "nameEn": "THREE OF WANDS",
     "nameKo": "완드 3",
     "image": "./assets/cards/24-three-of-wands.webp",
     "upright": {
@@ -976,8 +926,6 @@ window.TAROT_CARDS = [
   },
   {
     "id": 25,
-    "number": "25",
-    "nameEn": "FOUR OF WANDS",
     "nameKo": "완드 4",
     "image": "./assets/cards/25-four-of-wands.webp",
     "upright": {
@@ -1015,8 +963,6 @@ window.TAROT_CARDS = [
   },
   {
     "id": 26,
-    "number": "26",
-    "nameEn": "FIVE OF WANDS",
     "nameKo": "완드 5",
     "image": "./assets/cards/26-five-of-wands.webp",
     "upright": {
@@ -1054,8 +1000,6 @@ window.TAROT_CARDS = [
   },
   {
     "id": 27,
-    "number": "27",
-    "nameEn": "SIX OF WANDS",
     "nameKo": "완드 6",
     "image": "./assets/cards/27-six-of-wands.webp",
     "upright": {
@@ -1093,8 +1037,6 @@ window.TAROT_CARDS = [
   },
   {
     "id": 28,
-    "number": "28",
-    "nameEn": "SEVEN OF WANDS",
     "nameKo": "완드 7",
     "image": "./assets/cards/28-seven-of-wands.webp",
     "upright": {
@@ -1132,8 +1074,6 @@ window.TAROT_CARDS = [
   },
   {
     "id": 29,
-    "number": "29",
-    "nameEn": "EIGHT OF WANDS",
     "nameKo": "완드 8",
     "image": "./assets/cards/29-eight-of-wands.webp",
     "upright": {
@@ -1171,8 +1111,6 @@ window.TAROT_CARDS = [
   },
   {
     "id": 30,
-    "number": "30",
-    "nameEn": "NINE OF WANDS",
     "nameKo": "완드 9",
     "image": "./assets/cards/30-nine-of-wands.webp",
     "upright": {
@@ -1210,8 +1148,6 @@ window.TAROT_CARDS = [
   },
   {
     "id": 31,
-    "number": "31",
-    "nameEn": "TEN OF WANDS",
     "nameKo": "완드 10",
     "image": "./assets/cards/31-ten-of-wands.webp",
     "upright": {
@@ -1249,8 +1185,6 @@ window.TAROT_CARDS = [
   },
   {
     "id": 32,
-    "number": "32",
-    "nameEn": "PAGE OF WANDS",
     "nameKo": "완드 페이지",
     "image": "./assets/cards/32-page-of-wands.webp",
     "upright": {
@@ -1288,8 +1222,6 @@ window.TAROT_CARDS = [
   },
   {
     "id": 33,
-    "number": "33",
-    "nameEn": "KNIGHT OF WANDS",
     "nameKo": "완드 나이트",
     "image": "./assets/cards/33-knight-of-wands.webp",
     "upright": {
@@ -1327,8 +1259,6 @@ window.TAROT_CARDS = [
   },
   {
     "id": 34,
-    "number": "34",
-    "nameEn": "QUEEN OF WANDS",
     "nameKo": "완드 퀸",
     "image": "./assets/cards/34-queen-of-wands.webp",
     "upright": {
@@ -1366,8 +1296,6 @@ window.TAROT_CARDS = [
   },
   {
     "id": 35,
-    "number": "35",
-    "nameEn": "KING OF WANDS",
     "nameKo": "완드 킹",
     "image": "./assets/cards/35-king-of-wands.webp",
     "upright": {
@@ -1405,8 +1333,6 @@ window.TAROT_CARDS = [
   },
   {
     "id": 36,
-    "number": "36",
-    "nameEn": "ACE OF CUPS",
     "nameKo": "컵 에이스",
     "image": "./assets/cards/36-ace-of-cups.webp",
     "upright": {
@@ -1444,8 +1370,6 @@ window.TAROT_CARDS = [
   },
   {
     "id": 37,
-    "number": "37",
-    "nameEn": "TWO OF CUPS",
     "nameKo": "컵 2",
     "image": "./assets/cards/37-two-of-cups.webp",
     "upright": {
@@ -1483,8 +1407,6 @@ window.TAROT_CARDS = [
   },
   {
     "id": 38,
-    "number": "38",
-    "nameEn": "THREE OF CUPS",
     "nameKo": "컵 3",
     "image": "./assets/cards/38-three-of-cups.webp",
     "upright": {
@@ -1522,8 +1444,6 @@ window.TAROT_CARDS = [
   },
   {
     "id": 39,
-    "number": "39",
-    "nameEn": "FOUR OF CUPS",
     "nameKo": "컵 4",
     "image": "./assets/cards/39-four-of-cups.webp",
     "upright": {
@@ -1561,8 +1481,6 @@ window.TAROT_CARDS = [
   },
   {
     "id": 40,
-    "number": "40",
-    "nameEn": "FIVE OF CUPS",
     "nameKo": "컵 5",
     "image": "./assets/cards/40-five-of-cups.webp",
     "upright": {
@@ -1600,8 +1518,6 @@ window.TAROT_CARDS = [
   },
   {
     "id": 41,
-    "number": "41",
-    "nameEn": "SIX OF CUPS",
     "nameKo": "컵 6",
     "image": "./assets/cards/41-six-of-cups.webp",
     "upright": {
@@ -1639,8 +1555,6 @@ window.TAROT_CARDS = [
   },
   {
     "id": 42,
-    "number": "42",
-    "nameEn": "SEVEN OF CUPS",
     "nameKo": "컵 7",
     "image": "./assets/cards/42-seven-of-cups.webp",
     "upright": {
@@ -1678,8 +1592,6 @@ window.TAROT_CARDS = [
   },
   {
     "id": 43,
-    "number": "43",
-    "nameEn": "EIGHT OF CUPS",
     "nameKo": "컵 8",
     "image": "./assets/cards/43-eight-of-cups.webp",
     "upright": {
@@ -1717,8 +1629,6 @@ window.TAROT_CARDS = [
   },
   {
     "id": 44,
-    "number": "44",
-    "nameEn": "NINE OF CUPS",
     "nameKo": "컵 9",
     "image": "./assets/cards/44-nine-of-cups.webp",
     "upright": {
@@ -1756,8 +1666,6 @@ window.TAROT_CARDS = [
   },
   {
     "id": 45,
-    "number": "45",
-    "nameEn": "TEN OF CUPS",
     "nameKo": "컵 10",
     "image": "./assets/cards/45-ten-of-cups.webp",
     "upright": {
@@ -1795,8 +1703,6 @@ window.TAROT_CARDS = [
   },
   {
     "id": 46,
-    "number": "46",
-    "nameEn": "PAGE OF CUPS",
     "nameKo": "컵 페이지",
     "image": "./assets/cards/46-page-of-cups.webp",
     "upright": {
@@ -1834,8 +1740,6 @@ window.TAROT_CARDS = [
   },
   {
     "id": 47,
-    "number": "47",
-    "nameEn": "KNIGHT OF CUPS",
     "nameKo": "컵 나이트",
     "image": "./assets/cards/47-knight-of-cups.webp",
     "upright": {
@@ -1873,8 +1777,6 @@ window.TAROT_CARDS = [
   },
   {
     "id": 48,
-    "number": "48",
-    "nameEn": "QUEEN OF CUPS",
     "nameKo": "컵 퀸",
     "image": "./assets/cards/48-queen-of-cups.webp",
     "upright": {
@@ -1912,8 +1814,6 @@ window.TAROT_CARDS = [
   },
   {
     "id": 49,
-    "number": "49",
-    "nameEn": "KING OF CUPS",
     "nameKo": "컵 킹",
     "image": "./assets/cards/49-king-of-cups.webp",
     "upright": {
@@ -1951,8 +1851,6 @@ window.TAROT_CARDS = [
   },
   {
     "id": 50,
-    "number": "50",
-    "nameEn": "ACE OF SWORDS",
     "nameKo": "소드 에이스",
     "image": "./assets/cards/50-ace-of-swords.webp",
     "upright": {
@@ -1990,8 +1888,6 @@ window.TAROT_CARDS = [
   },
   {
     "id": 51,
-    "number": "51",
-    "nameEn": "TWO OF SWORDS",
     "nameKo": "소드 2",
     "image": "./assets/cards/51-two-of-swords.webp",
     "upright": {
@@ -2029,8 +1925,6 @@ window.TAROT_CARDS = [
   },
   {
     "id": 52,
-    "number": "52",
-    "nameEn": "THREE OF SWORDS",
     "nameKo": "소드 3",
     "image": "./assets/cards/52-three-of-swords.webp",
     "upright": {
@@ -2068,8 +1962,6 @@ window.TAROT_CARDS = [
   },
   {
     "id": 53,
-    "number": "53",
-    "nameEn": "FOUR OF SWORDS",
     "nameKo": "소드 4",
     "image": "./assets/cards/53-four-of-swords.webp",
     "upright": {
@@ -2107,8 +1999,6 @@ window.TAROT_CARDS = [
   },
   {
     "id": 54,
-    "number": "54",
-    "nameEn": "FIVE OF SWORDS",
     "nameKo": "소드 5",
     "image": "./assets/cards/54-five-of-swords.webp",
     "upright": {
@@ -2146,8 +2036,6 @@ window.TAROT_CARDS = [
   },
   {
     "id": 55,
-    "number": "55",
-    "nameEn": "SIX OF SWORDS",
     "nameKo": "소드 6",
     "image": "./assets/cards/55-six-of-swords.webp",
     "upright": {
@@ -2185,8 +2073,6 @@ window.TAROT_CARDS = [
   },
   {
     "id": 56,
-    "number": "56",
-    "nameEn": "SEVEN OF SWORDS",
     "nameKo": "소드 7",
     "image": "./assets/cards/56-seven-of-swords.webp",
     "upright": {
@@ -2224,8 +2110,6 @@ window.TAROT_CARDS = [
   },
   {
     "id": 57,
-    "number": "57",
-    "nameEn": "EIGHT OF SWORDS",
     "nameKo": "소드 8",
     "image": "./assets/cards/57-eight-of-swords.webp",
     "upright": {
@@ -2263,8 +2147,6 @@ window.TAROT_CARDS = [
   },
   {
     "id": 58,
-    "number": "58",
-    "nameEn": "NINE OF SWORDS",
     "nameKo": "소드 9",
     "image": "./assets/cards/58-nine-of-swords.webp",
     "upright": {
@@ -2302,8 +2184,6 @@ window.TAROT_CARDS = [
   },
   {
     "id": 59,
-    "number": "59",
-    "nameEn": "TEN OF SWORDS",
     "nameKo": "소드 10",
     "image": "./assets/cards/59-ten-of-swords.webp",
     "upright": {
@@ -2341,8 +2221,6 @@ window.TAROT_CARDS = [
   },
   {
     "id": 60,
-    "number": "60",
-    "nameEn": "PAGE OF SWORDS",
     "nameKo": "소드 페이지",
     "image": "./assets/cards/60-page-of-swords.webp",
     "upright": {
@@ -2380,8 +2258,6 @@ window.TAROT_CARDS = [
   },
   {
     "id": 61,
-    "number": "61",
-    "nameEn": "KNIGHT OF SWORDS",
     "nameKo": "소드 나이트",
     "image": "./assets/cards/61-knight-of-swords.webp",
     "upright": {
@@ -2419,8 +2295,6 @@ window.TAROT_CARDS = [
   },
   {
     "id": 62,
-    "number": "62",
-    "nameEn": "QUEEN OF SWORDS",
     "nameKo": "소드 퀸",
     "image": "./assets/cards/62-queen-of-swords.webp",
     "upright": {
@@ -2458,8 +2332,6 @@ window.TAROT_CARDS = [
   },
   {
     "id": 63,
-    "number": "63",
-    "nameEn": "KING OF SWORDS",
     "nameKo": "소드 킹",
     "image": "./assets/cards/63-king-of-swords.webp",
     "upright": {
@@ -2497,8 +2369,6 @@ window.TAROT_CARDS = [
   },
   {
     "id": 64,
-    "number": "64",
-    "nameEn": "ACE OF PENTACLES",
     "nameKo": "펜타클 에이스",
     "image": "./assets/cards/64-ace-of-pentacles.webp",
     "upright": {
@@ -2536,8 +2406,6 @@ window.TAROT_CARDS = [
   },
   {
     "id": 65,
-    "number": "65",
-    "nameEn": "TWO OF PENTACLES",
     "nameKo": "펜타클 2",
     "image": "./assets/cards/65-two-of-pentacles.webp",
     "upright": {
@@ -2575,8 +2443,6 @@ window.TAROT_CARDS = [
   },
   {
     "id": 66,
-    "number": "66",
-    "nameEn": "THREE OF PENTACLES",
     "nameKo": "펜타클 3",
     "image": "./assets/cards/66-three-of-pentacles.webp",
     "upright": {
@@ -2614,8 +2480,6 @@ window.TAROT_CARDS = [
   },
   {
     "id": 67,
-    "number": "67",
-    "nameEn": "FOUR OF PENTACLES",
     "nameKo": "펜타클 4",
     "image": "./assets/cards/67-four-of-pentacles.webp",
     "upright": {
@@ -2653,8 +2517,6 @@ window.TAROT_CARDS = [
   },
   {
     "id": 68,
-    "number": "68",
-    "nameEn": "FIVE OF PENTACLES",
     "nameKo": "펜타클 5",
     "image": "./assets/cards/68-five-of-pentacles.webp",
     "upright": {
@@ -2692,8 +2554,6 @@ window.TAROT_CARDS = [
   },
   {
     "id": 69,
-    "number": "69",
-    "nameEn": "SIX OF PENTACLES",
     "nameKo": "펜타클 6",
     "image": "./assets/cards/69-six-of-pentacles.webp",
     "upright": {
@@ -2731,8 +2591,6 @@ window.TAROT_CARDS = [
   },
   {
     "id": 70,
-    "number": "70",
-    "nameEn": "SEVEN OF PENTACLES",
     "nameKo": "펜타클 7",
     "image": "./assets/cards/70-seven-of-pentacles.webp",
     "upright": {
@@ -2770,8 +2628,6 @@ window.TAROT_CARDS = [
   },
   {
     "id": 71,
-    "number": "71",
-    "nameEn": "EIGHT OF PENTACLES",
     "nameKo": "펜타클 8",
     "image": "./assets/cards/71-eight-of-pentacles.webp",
     "upright": {
@@ -2809,8 +2665,6 @@ window.TAROT_CARDS = [
   },
   {
     "id": 72,
-    "number": "72",
-    "nameEn": "NINE OF PENTACLES",
     "nameKo": "펜타클 9",
     "image": "./assets/cards/72-nine-of-pentacles.webp",
     "upright": {
@@ -2848,8 +2702,6 @@ window.TAROT_CARDS = [
   },
   {
     "id": 73,
-    "number": "73",
-    "nameEn": "TEN OF PENTACLES",
     "nameKo": "펜타클 10",
     "image": "./assets/cards/73-ten-of-pentacles.webp",
     "upright": {
@@ -2887,8 +2739,6 @@ window.TAROT_CARDS = [
   },
   {
     "id": 74,
-    "number": "74",
-    "nameEn": "PAGE OF PENTACLES",
     "nameKo": "펜타클 페이지",
     "image": "./assets/cards/74-page-of-pentacles.webp",
     "upright": {
@@ -2926,8 +2776,6 @@ window.TAROT_CARDS = [
   },
   {
     "id": 75,
-    "number": "75",
-    "nameEn": "KNIGHT OF PENTACLES",
     "nameKo": "펜타클 나이트",
     "image": "./assets/cards/75-knight-of-pentacles.webp",
     "upright": {
@@ -2965,8 +2813,6 @@ window.TAROT_CARDS = [
   },
   {
     "id": 76,
-    "number": "76",
-    "nameEn": "QUEEN OF PENTACLES",
     "nameKo": "펜타클 퀸",
     "image": "./assets/cards/76-queen-of-pentacles.webp",
     "upright": {
@@ -3004,8 +2850,6 @@ window.TAROT_CARDS = [
   },
   {
     "id": 77,
-    "number": "77",
-    "nameEn": "KING OF PENTACLES",
     "nameKo": "펜타클 킹",
     "image": "./assets/cards/77-king-of-pentacles.webp",
     "upright": {
