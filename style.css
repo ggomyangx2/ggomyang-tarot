@@ -97,12 +97,15 @@ button { font: inherit; }
   width: 63%;
   height: 10%;
   transform: translateX(-50%);
-  border: 3px solid red;
-  background: rgba(255, 0, 0, 0.25);
+  border: 0;
+  background: transparent;
   cursor: pointer;
-  z-index: 20;
-
+  z-index: 999;
+  pointer-events: auto;
+  touch-action: manipulation;
   -webkit-tap-highlight-color: transparent;
+  appearance: none;
+  -webkit-appearance: none;
 }
 
 /* 터치했을 때 살짝 눌리는 느낌 */
