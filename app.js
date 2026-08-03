@@ -157,6 +157,7 @@ function resetForTesting() {
 }
 
 drawButton.addEventListener("click", handleDraw);
+mainDrawButton.addEventListener("click", handleDraw);
 restoreButton.addEventListener("click", () => {
   const result = getSavedResult();
   if (result) renderResult(result);
