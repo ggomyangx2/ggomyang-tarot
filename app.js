@@ -2,10 +2,8 @@
 const STORAGE_KEY = "ggomyangTarotDailyResult.v1";
 const DAY_KEY = "ggomyangTarotDailyDate.v1";
 
-const introView = document.querySelector("#introView");
 const shuffleView = document.querySelector("#shuffleView");
 const resultView = document.querySelector("#resultView");
-const drawButton = document.querySelector("#drawButton");
 const mainDrawButton = document.querySelector("#mainDrawButton");
 const restoreButton = document.querySelector("#restoreButton");
 const shareButton = document.querySelector("#shareButton");
@@ -60,8 +58,11 @@ function drawResult() {
 }
 
 function showOnly(view) {
-  [introView, shuffleView, resultView].forEach((el) => el.classList.add("hidden"));
-  view.classList.remove("hidden");
+  [mainCardSection, shuffleView, resultView].forEach((el) => {
+    el?.classList.add("hidden");
+  });
+
+  view?.classList.remove("hidden");
 }
 
 function renderResult(result) {
@@ -156,7 +157,6 @@ function resetForTesting() {
   location.reload();
 }
 
-drawButton.addEventListener("click", handleDraw);
 mainDrawButton.addEventListener("click", handleDraw);
 restoreButton.addEventListener("click", () => {
   const result = getSavedResult();
