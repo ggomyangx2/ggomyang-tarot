@@ -101,7 +101,7 @@ button { font: inherit; }
   transform: translateX(-50%);
 
   border: 0;
-  background: transparent;
+  background: rgba(255, 0, 0, 0.25);
   cursor: pointer;
   z-index: 20;
 
