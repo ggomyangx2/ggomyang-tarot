@@ -160,7 +160,3 @@ function resetForTesting() {
 mainDrawButton.addEventListener("click", handleDraw);
 shareButton.addEventListener("click", shareResult);
 resetButton.addEventListener("click", resetForTesting);
-
-const saved = getSavedResult();
-if (saved) {
-  restoreButton.classList.remove("hidden");
