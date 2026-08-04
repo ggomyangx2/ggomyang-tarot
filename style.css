@@ -283,9 +283,9 @@ button { font: inherit; }
 }
 
 .tarot-card {
-  width: min(65vw, 250px);
+  width: min(58vw, 220px);
   aspect-ratio: 7 / 12;
-  padding: 10px;
+  padding: 4px;
   border: 2px solid var(--gold);
   border-radius: 18px;
   color: var(--paper);
