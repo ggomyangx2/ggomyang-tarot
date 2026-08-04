@@ -2,7 +2,7 @@ window.TAROT_CARDS = [
   {
     "id": 0,
     "nameKo": "바보",
-    "image": "./assets/cards/00-the-fool.webp",
+    "image": "./assets/cards/00-the-fool.png",
     "upright": {
       "keywords": [
         "새로운 시작",
@@ -39,7 +39,7 @@ window.TAROT_CARDS = [
   {
     "id": 1,
     "nameKo": "마법사",
-    "image": "./assets/cards/01-the-magician.webp",
+    "image": "./assets/cards/01-the-magician.png",
     "upright": {
       "keywords": [
         "실행력",
@@ -76,7 +76,7 @@ window.TAROT_CARDS = [
   {
     "id": 2,
     "nameKo": "여사제",
-    "image": "./assets/cards/02-the-high-priestess.webp",
+    "image": "./assets/cards/02-the-high-priestess.png",
     "upright": {
       "keywords": [
         "직감",
@@ -113,7 +113,7 @@ window.TAROT_CARDS = [
   {
     "id": 3,
     "nameKo": "여황제",
-    "image": "./assets/cards/03-the-empress.webp",
+    "image": "./assets/cards/03-the-empress.png",
     "upright": {
       "keywords": [
         "풍요",
@@ -150,7 +150,7 @@ window.TAROT_CARDS = [
   {
     "id": 4,
     "nameKo": "황제",
-    "image": "./assets/cards/04-the-emperor.webp",
+    "image": "./assets/cards/04-the-emperor.png",
     "upright": {
       "keywords": [
         "질서",
@@ -187,7 +187,7 @@ window.TAROT_CARDS = [
   {
     "id": 5,
     "nameKo": "교황",
-    "image": "./assets/cards/05-the-hierophant.webp",
+    "image": "./assets/cards/05-the-hierophant.png",
     "upright": {
       "keywords": [
         "전통",
@@ -224,7 +224,7 @@ window.TAROT_CARDS = [
   {
     "id": 6,
     "nameKo": "연인",
-    "image": "./assets/cards/06-the-lovers.webp",
+    "image": "./assets/cards/06-the-lovers.png",
     "upright": {
       "keywords": [
         "선택",
@@ -261,7 +261,7 @@ window.TAROT_CARDS = [
   {
     "id": 7,
     "nameKo": "전차",
-    "image": "./assets/cards/07-the-chariot.webp",
+    "image": "./assets/cards/07-the-chariot.png",
     "upright": {
       "keywords": [
         "전진",
@@ -298,7 +298,7 @@ window.TAROT_CARDS = [
   {
     "id": 8,
     "nameKo": "힘",
-    "image": "./assets/cards/08-strength.webp",
+    "image": "./assets/cards/08-strength.png",
     "upright": {
       "keywords": [
         "용기",
@@ -335,7 +335,7 @@ window.TAROT_CARDS = [
   {
     "id": 9,
     "nameKo": "은둔자",
-    "image": "./assets/cards/09-the-hermit.webp",
+    "image": "./assets/cards/09-the-hermit.png",
     "upright": {
       "keywords": [
         "성찰",
@@ -372,7 +372,7 @@ window.TAROT_CARDS = [
   {
     "id": 10,
     "nameKo": "운명의 수레바퀴",
-    "image": "./assets/cards/10-wheel-of-fortune.webp",
+    "image": "./assets/cards/10-wheel-of-fortune.png",
     "upright": {
       "keywords": [
         "변화",
@@ -409,7 +409,7 @@ window.TAROT_CARDS = [
   {
     "id": 11,
     "nameKo": "정의",
-    "image": "./assets/cards/11-justice.webp",
+    "image": "./assets/cards/11-justice.png",
     "upright": {
       "keywords": [
         "균형",
@@ -446,7 +446,7 @@ window.TAROT_CARDS = [
   {
     "id": 12,
     "nameKo": "매달린 사람",
-    "image": "./assets/cards/12-the-hanged-man.webp",
+    "image": "./assets/cards/12-the-hanged-man.png",
     "upright": {
       "keywords": [
         "관점 전환",
@@ -483,7 +483,7 @@ window.TAROT_CARDS = [
   {
     "id": 13,
     "nameKo": "죽음",
-    "image": "./assets/cards/13-death.webp",
+    "image": "./assets/cards/13-death.png",
     "upright": {
       "keywords": [
         "마무리",
@@ -520,7 +520,7 @@ window.TAROT_CARDS = [
   {
     "id": 14,
     "nameKo": "절제",
-    "image": "./assets/cards/14-temperance.webp",
+    "image": "./assets/cards/14-temperance.png",
     "upright": {
       "keywords": [
         "조화",
@@ -557,7 +557,7 @@ window.TAROT_CARDS = [
   {
     "id": 15,
     "nameKo": "악마",
-    "image": "./assets/cards/15-the-devil.webp",
+    "image": "./assets/cards/15-the-devil.png",
     "upright": {
       "keywords": [
         "욕망",
@@ -594,7 +594,7 @@ window.TAROT_CARDS = [
   {
     "id": 16,
     "nameKo": "탑",
-    "image": "./assets/cards/16-the-tower.webp",
+    "image": "./assets/cards/16-the-tower.png",
     "upright": {
       "keywords": [
         "충격",
@@ -631,7 +631,7 @@ window.TAROT_CARDS = [
   {
     "id": 17,
     "nameKo": "별",
-    "image": "./assets/cards/17-the-star.webp",
+    "image": "./assets/cards/17-the-star.png",
     "upright": {
       "keywords": [
         "희망",
@@ -668,7 +668,7 @@ window.TAROT_CARDS = [
   {
     "id": 18,
     "nameKo": "달",
-    "image": "./assets/cards/18-the-moon.webp",
+    "image": "./assets/cards/18-the-moon.png",
     "upright": {
       "keywords": [
         "감수성",
@@ -705,7 +705,7 @@ window.TAROT_CARDS = [
   {
     "id": 19,
     "nameKo": "태양",
-    "image": "./assets/cards/19-the-sun.webp",
+    "image": "./assets/cards/19-the-sun.png",
     "upright": {
       "keywords": [
         "성공",
@@ -742,7 +742,7 @@ window.TAROT_CARDS = [
   {
     "id": 20,
     "nameKo": "심판",
-    "image": "./assets/cards/20-judgement.webp",
+    "image": "./assets/cards/20-judgement.png",
     "upright": {
       "keywords": [
         "각성",
@@ -779,7 +779,7 @@ window.TAROT_CARDS = [
   {
     "id": 21,
     "nameKo": "세계",
-    "image": "./assets/cards/21-the-world.webp",
+    "image": "./assets/cards/21-the-world.png",
     "upright": {
       "keywords": [
         "완성",
@@ -816,7 +816,7 @@ window.TAROT_CARDS = [
   {
     "id": 22,
     "nameKo": "완드 에이스",
-    "image": "./assets/cards/22-ace-of-wands.webp",
+    "image": "./assets/cards/22-ace-of-wands.png",
     "upright": {
       "keywords": [
         "새로운 열정",
@@ -853,7 +853,7 @@ window.TAROT_CARDS = [
   {
     "id": 23,
     "nameKo": "완드 2",
-    "image": "./assets/cards/23-two-of-wands.webp",
+    "image": "./assets/cards/23-two-of-wands.png",
     "upright": {
       "keywords": [
         "계획",
@@ -890,7 +890,7 @@ window.TAROT_CARDS = [
   {
     "id": 24,
     "nameKo": "완드 3",
-    "image": "./assets/cards/24-three-of-wands.webp",
+    "image": "./assets/cards/24-three-of-wands.png",
     "upright": {
       "keywords": [
         "확장",
@@ -927,7 +927,7 @@ window.TAROT_CARDS = [
   {
     "id": 25,
     "nameKo": "완드 4",
-    "image": "./assets/cards/25-four-of-wands.webp",
+    "image": "./assets/cards/25-four-of-wands.png",
     "upright": {
       "keywords": [
         "축하",
@@ -964,7 +964,7 @@ window.TAROT_CARDS = [
   {
     "id": 26,
     "nameKo": "완드 5",
-    "image": "./assets/cards/26-five-of-wands.webp",
+    "image": "./assets/cards/26-five-of-wands.png",
     "upright": {
       "keywords": [
         "경쟁",
@@ -1001,7 +1001,7 @@ window.TAROT_CARDS = [
   {
     "id": 27,
     "nameKo": "완드 6",
-    "image": "./assets/cards/27-six-of-wands.webp",
+    "image": "./assets/cards/27-six-of-wands.png",
     "upright": {
       "keywords": [
         "승리",
@@ -1038,7 +1038,7 @@ window.TAROT_CARDS = [
   {
     "id": 28,
     "nameKo": "완드 7",
-    "image": "./assets/cards/28-seven-of-wands.webp",
+    "image": "./assets/cards/28-seven-of-wands.png",
     "upright": {
       "keywords": [
         "방어",
@@ -1075,7 +1075,7 @@ window.TAROT_CARDS = [
   {
     "id": 29,
     "nameKo": "완드 8",
-    "image": "./assets/cards/29-eight-of-wands.webp",
+    "image": "./assets/cards/29-eight-of-wands.png",
     "upright": {
       "keywords": [
         "빠른 전개",
@@ -1112,7 +1112,7 @@ window.TAROT_CARDS = [
   {
     "id": 30,
     "nameKo": "완드 9",
-    "image": "./assets/cards/30-nine-of-wands.webp",
+    "image": "./assets/cards/30-nine-of-wands.png",
     "upright": {
       "keywords": [
         "끈기",
@@ -1149,7 +1149,7 @@ window.TAROT_CARDS = [
   {
     "id": 31,
     "nameKo": "완드 10",
-    "image": "./assets/cards/31-ten-of-wands.webp",
+    "image": "./assets/cards/31-ten-of-wands.png",
     "upright": {
       "keywords": [
         "책임",
@@ -1186,7 +1186,7 @@ window.TAROT_CARDS = [
   {
     "id": 32,
     "nameKo": "완드 페이지",
-    "image": "./assets/cards/32-page-of-wands.webp",
+    "image": "./assets/cards/32-page-of-wands.png",
     "upright": {
       "keywords": [
         "호기심",
@@ -1223,7 +1223,7 @@ window.TAROT_CARDS = [
   {
     "id": 33,
     "nameKo": "완드 나이트",
-    "image": "./assets/cards/33-knight-of-wands.webp",
+    "image": "./assets/cards/33-knight-of-wands.png",
     "upright": {
       "keywords": [
         "추진력",
@@ -1260,7 +1260,7 @@ window.TAROT_CARDS = [
   {
     "id": 34,
     "nameKo": "완드 퀸",
-    "image": "./assets/cards/34-queen-of-wands.webp",
+    "image": "./assets/cards/34-queen-of-wands.png",
     "upright": {
       "keywords": [
         "자신감",
@@ -1297,7 +1297,7 @@ window.TAROT_CARDS = [
   {
     "id": 35,
     "nameKo": "완드 킹",
-    "image": "./assets/cards/35-king-of-wands.webp",
+    "image": "./assets/cards/35-king-of-wands.png",
     "upright": {
       "keywords": [
         "비전",
@@ -1334,7 +1334,7 @@ window.TAROT_CARDS = [
   {
     "id": 36,
     "nameKo": "컵 에이스",
-    "image": "./assets/cards/36-ace-of-cups.webp",
+    "image": "./assets/cards/36-ace-of-cups.png",
     "upright": {
       "keywords": [
         "감정의 시작",
@@ -1371,7 +1371,7 @@ window.TAROT_CARDS = [
   {
     "id": 37,
     "nameKo": "컵 2",
-    "image": "./assets/cards/37-two-of-cups.webp",
+    "image": "./assets/cards/37-two-of-cups.png",
     "upright": {
       "keywords": [
         "교감",
@@ -1408,7 +1408,7 @@ window.TAROT_CARDS = [
   {
     "id": 38,
     "nameKo": "컵 3",
-    "image": "./assets/cards/38-three-of-cups.webp",
+    "image": "./assets/cards/38-three-of-cups.png",
     "upright": {
       "keywords": [
         "축하",
@@ -1445,7 +1445,7 @@ window.TAROT_CARDS = [
   {
     "id": 39,
     "nameKo": "컵 4",
-    "image": "./assets/cards/39-four-of-cups.webp",
+    "image": "./assets/cards/39-four-of-cups.png",
     "upright": {
       "keywords": [
         "권태",
@@ -1482,7 +1482,7 @@ window.TAROT_CARDS = [
   {
     "id": 40,
     "nameKo": "컵 5",
-    "image": "./assets/cards/40-five-of-cups.webp",
+    "image": "./assets/cards/40-five-of-cups.png",
     "upright": {
       "keywords": [
         "상실",
@@ -1519,7 +1519,7 @@ window.TAROT_CARDS = [
   {
     "id": 41,
     "nameKo": "컵 6",
-    "image": "./assets/cards/41-six-of-cups.webp",
+    "image": "./assets/cards/41-six-of-cups.png",
     "upright": {
       "keywords": [
         "추억",
@@ -1556,7 +1556,7 @@ window.TAROT_CARDS = [
   {
     "id": 42,
     "nameKo": "컵 7",
-    "image": "./assets/cards/42-seven-of-cups.webp",
+    "image": "./assets/cards/42-seven-of-cups.png",
     "upright": {
       "keywords": [
         "선택지",
@@ -1593,7 +1593,7 @@ window.TAROT_CARDS = [
   {
     "id": 43,
     "nameKo": "컵 8",
-    "image": "./assets/cards/43-eight-of-cups.webp",
+    "image": "./assets/cards/43-eight-of-cups.png",
     "upright": {
       "keywords": [
         "떠남",
@@ -1630,7 +1630,7 @@ window.TAROT_CARDS = [
   {
     "id": 44,
     "nameKo": "컵 9",
-    "image": "./assets/cards/44-nine-of-cups.webp",
+    "image": "./assets/cards/44-nine-of-cups.png",
     "upright": {
       "keywords": [
         "만족",
@@ -1667,7 +1667,7 @@ window.TAROT_CARDS = [
   {
     "id": 45,
     "nameKo": "컵 10",
-    "image": "./assets/cards/45-ten-of-cups.webp",
+    "image": "./assets/cards/45-ten-of-cups.png",
     "upright": {
       "keywords": [
         "정서적 행복",
@@ -1704,7 +1704,7 @@ window.TAROT_CARDS = [
   {
     "id": 46,
     "nameKo": "컵 페이지",
-    "image": "./assets/cards/46-page-of-cups.webp",
+    "image": "./assets/cards/46-page-of-cups.png",
     "upright": {
       "keywords": [
         "감성",
@@ -1741,7 +1741,7 @@ window.TAROT_CARDS = [
   {
     "id": 47,
     "nameKo": "컵 나이트",
-    "image": "./assets/cards/47-knight-of-cups.webp",
+    "image": "./assets/cards/47-knight-of-cups.png",
     "upright": {
       "keywords": [
         "로맨스",
@@ -1778,7 +1778,7 @@ window.TAROT_CARDS = [
   {
     "id": 48,
     "nameKo": "컵 퀸",
-    "image": "./assets/cards/48-queen-of-cups.webp",
+    "image": "./assets/cards/48-queen-of-cups.png",
     "upright": {
       "keywords": [
         "공감",
@@ -1815,7 +1815,7 @@ window.TAROT_CARDS = [
   {
     "id": 49,
     "nameKo": "컵 킹",
-    "image": "./assets/cards/49-king-of-cups.webp",
+    "image": "./assets/cards/49-king-of-cups.png",
     "upright": {
       "keywords": [
         "감정 조절",
@@ -1852,7 +1852,7 @@ window.TAROT_CARDS = [
   {
     "id": 50,
     "nameKo": "소드 에이스",
-    "image": "./assets/cards/50-ace-of-swords.webp",
+    "image": "./assets/cards/50-ace-of-swords.png",
     "upright": {
       "keywords": [
         "명확한 판단",
@@ -1889,7 +1889,7 @@ window.TAROT_CARDS = [
   {
     "id": 51,
     "nameKo": "소드 2",
-    "image": "./assets/cards/51-two-of-swords.webp",
+    "image": "./assets/cards/51-two-of-swords.png",
     "upright": {
       "keywords": [
         "결정 보류",
@@ -1926,7 +1926,7 @@ window.TAROT_CARDS = [
   {
     "id": 52,
     "nameKo": "소드 3",
-    "image": "./assets/cards/52-three-of-swords.webp",
+    "image": "./assets/cards/52-three-of-swords.png",
     "upright": {
       "keywords": [
         "상처",
@@ -1963,7 +1963,7 @@ window.TAROT_CARDS = [
   {
     "id": 53,
     "nameKo": "소드 4",
-    "image": "./assets/cards/53-four-of-swords.webp",
+    "image": "./assets/cards/53-four-of-swords.png",
     "upright": {
       "keywords": [
         "휴식",
@@ -2000,7 +2000,7 @@ window.TAROT_CARDS = [
   {
     "id": 54,
     "nameKo": "소드 5",
-    "image": "./assets/cards/54-five-of-swords.webp",
+    "image": "./assets/cards/54-five-of-swords.png",
     "upright": {
       "keywords": [
         "갈등",
@@ -2037,7 +2037,7 @@ window.TAROT_CARDS = [
   {
     "id": 55,
     "nameKo": "소드 6",
-    "image": "./assets/cards/55-six-of-swords.webp",
+    "image": "./assets/cards/55-six-of-swords.png",
     "upright": {
       "keywords": [
         "이동",
@@ -2074,7 +2074,7 @@ window.TAROT_CARDS = [
   {
     "id": 56,
     "nameKo": "소드 7",
-    "image": "./assets/cards/56-seven-of-swords.webp",
+    "image": "./assets/cards/56-seven-of-swords.png",
     "upright": {
       "keywords": [
         "전략",
@@ -2111,7 +2111,7 @@ window.TAROT_CARDS = [
   {
     "id": 57,
     "nameKo": "소드 8",
-    "image": "./assets/cards/57-eight-of-swords.webp",
+    "image": "./assets/cards/57-eight-of-swords.png",
     "upright": {
       "keywords": [
         "제약",
@@ -2148,7 +2148,7 @@ window.TAROT_CARDS = [
   {
     "id": 58,
     "nameKo": "소드 9",
-    "image": "./assets/cards/58-nine-of-swords.webp",
+    "image": "./assets/cards/58-nine-of-swords.png",
     "upright": {
       "keywords": [
         "불안",
@@ -2185,7 +2185,7 @@ window.TAROT_CARDS = [
   {
     "id": 59,
     "nameKo": "소드 10",
-    "image": "./assets/cards/59-ten-of-swords.webp",
+    "image": "./assets/cards/59-ten-of-swords.png",
     "upright": {
       "keywords": [
         "끝",
@@ -2222,7 +2222,7 @@ window.TAROT_CARDS = [
   {
     "id": 60,
     "nameKo": "소드 페이지",
-    "image": "./assets/cards/60-page-of-swords.webp",
+    "image": "./assets/cards/60-page-of-swords.png",
     "upright": {
       "keywords": [
         "호기심",
@@ -2259,7 +2259,7 @@ window.TAROT_CARDS = [
   {
     "id": 61,
     "nameKo": "소드 나이트",
-    "image": "./assets/cards/61-knight-of-swords.webp",
+    "image": "./assets/cards/61-knight-of-swords.png",
     "upright": {
       "keywords": [
         "직진",
@@ -2296,7 +2296,7 @@ window.TAROT_CARDS = [
   {
     "id": 62,
     "nameKo": "소드 퀸",
-    "image": "./assets/cards/62-queen-of-swords.webp",
+    "image": "./assets/cards/62-queen-of-swords.png",
     "upright": {
       "keywords": [
         "독립성",
@@ -2333,7 +2333,7 @@ window.TAROT_CARDS = [
   {
     "id": 63,
     "nameKo": "소드 킹",
-    "image": "./assets/cards/63-king-of-swords.webp",
+    "image": "./assets/cards/63-king-of-swords.png",
     "upright": {
       "keywords": [
         "이성",
@@ -2370,7 +2370,7 @@ window.TAROT_CARDS = [
   {
     "id": 64,
     "nameKo": "펜타클 에이스",
-    "image": "./assets/cards/64-ace-of-pentacles.webp",
+    "image": "./assets/cards/64-ace-of-pentacles.png",
     "upright": {
       "keywords": [
         "현실적 기회",
@@ -2407,7 +2407,7 @@ window.TAROT_CARDS = [
   {
     "id": 65,
     "nameKo": "펜타클 2",
-    "image": "./assets/cards/65-two-of-pentacles.webp",
+    "image": "./assets/cards/65-two-of-pentacles.png",
     "upright": {
       "keywords": [
         "균형",
@@ -2444,7 +2444,7 @@ window.TAROT_CARDS = [
   {
     "id": 66,
     "nameKo": "펜타클 3",
-    "image": "./assets/cards/66-three-of-pentacles.webp",
+    "image": "./assets/cards/66-three-of-pentacles.png",
     "upright": {
       "keywords": [
         "협업",
@@ -2481,7 +2481,7 @@ window.TAROT_CARDS = [
   {
     "id": 67,
     "nameKo": "펜타클 4",
-    "image": "./assets/cards/67-four-of-pentacles.webp",
+    "image": "./assets/cards/67-four-of-pentacles.png",
     "upright": {
       "keywords": [
         "보존",
@@ -2518,7 +2518,7 @@ window.TAROT_CARDS = [
   {
     "id": 68,
     "nameKo": "펜타클 5",
-    "image": "./assets/cards/68-five-of-pentacles.webp",
+    "image": "./assets/cards/68-five-of-pentacles.png",
     "upright": {
       "keywords": [
         "부족함",
@@ -2555,7 +2555,7 @@ window.TAROT_CARDS = [
   {
     "id": 69,
     "nameKo": "펜타클 6",
-    "image": "./assets/cards/69-six-of-pentacles.webp",
+    "image": "./assets/cards/69-six-of-pentacles.png",
     "upright": {
       "keywords": [
         "나눔",
@@ -2592,7 +2592,7 @@ window.TAROT_CARDS = [
   {
     "id": 70,
     "nameKo": "펜타클 7",
-    "image": "./assets/cards/70-seven-of-pentacles.webp",
+    "image": "./assets/cards/70-seven-of-pentacles.png",
     "upright": {
       "keywords": [
         "인내",
@@ -2629,7 +2629,7 @@ window.TAROT_CARDS = [
   {
     "id": 71,
     "nameKo": "펜타클 8",
-    "image": "./assets/cards/71-eight-of-pentacles.webp",
+    "image": "./assets/cards/71-eight-of-pentacles.png",
     "upright": {
       "keywords": [
         "숙련",
@@ -2666,7 +2666,7 @@ window.TAROT_CARDS = [
   {
     "id": 72,
     "nameKo": "펜타클 9",
-    "image": "./assets/cards/72-nine-of-pentacles.webp",
+    "image": "./assets/cards/72-nine-of-pentacles.png",
     "upright": {
       "keywords": [
         "독립",
@@ -2703,7 +2703,7 @@ window.TAROT_CARDS = [
   {
     "id": 73,
     "nameKo": "펜타클 10",
-    "image": "./assets/cards/73-ten-of-pentacles.webp",
+    "image": "./assets/cards/73-ten-of-pentacles.png",
     "upright": {
       "keywords": [
         "장기 안정",
@@ -2740,7 +2740,7 @@ window.TAROT_CARDS = [
   {
     "id": 74,
     "nameKo": "펜타클 페이지",
-    "image": "./assets/cards/74-page-of-pentacles.webp",
+    "image": "./assets/cards/74-page-of-pentacles.png",
     "upright": {
       "keywords": [
         "배움",
@@ -2777,7 +2777,7 @@ window.TAROT_CARDS = [
   {
     "id": 75,
     "nameKo": "펜타클 나이트",
-    "image": "./assets/cards/75-knight-of-pentacles.webp",
+    "image": "./assets/cards/75-knight-of-pentacles.png",
     "upright": {
       "keywords": [
         "성실함",
@@ -2814,7 +2814,7 @@ window.TAROT_CARDS = [
   {
     "id": 76,
     "nameKo": "펜타클 퀸",
-    "image": "./assets/cards/76-queen-of-pentacles.webp",
+    "image": "./assets/cards/76-queen-of-pentacles.png",
     "upright": {
       "keywords": [
         "돌봄",
@@ -2851,7 +2851,7 @@ window.TAROT_CARDS = [
   {
     "id": 77,
     "nameKo": "펜타클 킹",
-    "image": "./assets/cards/77-king-of-pentacles.webp",
+    "image": "./assets/cards/77-king-of-pentacles.png",
     "upright": {
       "keywords": [
         "재정적 안정",
