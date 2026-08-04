@@ -310,7 +310,7 @@ button { font: inherit; }
 .tarot-card {
   width: min(58vw, 220px);
   aspect-ratio: 7 / 12;
-  padding: 4px;
+  padding: 0px;
   border: 2px solid var(--gold);
   border-radius: 18px;
   color: var(--paper);
