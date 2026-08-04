@@ -1,10 +1,3 @@
-@font-face {
-    font-family: 'OngleipParkDahyeon';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2411-3@1.0/Ownglyph_ParkDaHyun.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-}
-
 :root {
   --bg: #171120;
   --bg-deep: #100b17;
@@ -508,12 +501,6 @@ button { font: inherit; }
   background: #3b2c49;
 }
 
-.reading-block,
-.keyword-list,
-.luck-grid,
-.cat-message {
-  font-family: 'OngleipParkDahyeon', sans-serif;
-}
 
 footer {
   margin-top: -10px;
