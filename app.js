@@ -92,7 +92,16 @@ function renderResult(result) {
   );
 
   const tarotCard = document.querySelector("#tarotCard");
+  const sparkles = document.querySelector(".card-sparkles");
+
+tarotCard.classList.remove("card-reveal", "reversed");
+sparkles?.classList.remove("sparkle-on");
+
+void tarotCard.offsetWidth;
+  
   tarotCard.classList.toggle("reversed", isReversed);
+  tarotCard.classList.add("card-reveal");
+sparkles?.classList.add("sparkle-on");
 
   const image = document.querySelector("#cardImage");
   const fallback = document.querySelector("#cardFallback");
