@@ -673,15 +673,13 @@ button { font: inherit; }
 
 .reading-block {
   margin-top: 26px;
-  padding-top: 0;
-  border-top: none;
+  padding-top: 22px;
+  border-top: 1px solid rgba(52,41,63,.12);
 }
 
 .reading-block h3 {
   color: var(--gold-soft);
   margin: 0 0 12px;
-  padding-top: 22px;
-  border-top: 1px solid rgba(234, 217, 168, .35);
   font-size: 1rem;
 }
 
@@ -716,7 +714,7 @@ button { font: inherit; }
   padding: 26px 0 0;
 
   border: 0;
-  border-top: none;
+  border-top: 1px solid rgba(234, 217, 168, .35);
 
   border-radius: 0;
   background: transparent;
@@ -778,7 +776,7 @@ button { font: inherit; }
 }
 
 .result-actions {
-  margin-top: 50px;
+  margin-top: 24px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -891,6 +889,70 @@ footer {
   text-align: center;
   font-size: .75rem;
   line-height: 1.6;
+}
+
+
+/* =========================================================
+   리딩 순차 등장 효과
+   카드가 먼저 등장한 뒤, 리딩이 아래에서 부드럽게 촤라락 펼쳐집니다.
+   ========================================================= */
+
+.reading-sheet .reading-heading,
+.reading-sheet .reading-block,
+.reading-sheet .cat-message,
+.reading-sheet .result-actions {
+  opacity: 0;
+  transform: translateY(12px);
+}
+
+.reading-sheet.reveal-reading .reading-heading,
+.reading-sheet.reveal-reading .reading-block,
+.reading-sheet.reveal-reading .cat-message,
+.reading-sheet.reveal-reading .result-actions {
+  animation: readingReveal .48s cubic-bezier(.22, .8, .3, 1) forwards;
+}
+
+/* 카드 → 상단 리딩 → 키워드 → 리딩 → 주의 → 행운 → 속닥속닥 → 버튼 */
+.reading-sheet.reveal-reading .reading-heading {
+  animation-delay: .38s;
+}
+
+.reading-sheet.reveal-reading .reading-block:nth-of-type(1) {
+  animation-delay: .52s;
+}
+
+.reading-sheet.reveal-reading .reading-block:nth-of-type(2) {
+  animation-delay: .66s;
+}
+
+.reading-sheet.reveal-reading .reading-block:nth-of-type(3) {
+  animation-delay: .80s;
+}
+
+.reading-sheet.reveal-reading .reading-block:nth-of-type(4) {
+  animation-delay: .94s;
+}
+
+.reading-sheet.reveal-reading .cat-message {
+  animation-delay: 1.08s;
+}
+
+.reading-sheet.reveal-reading .result-actions {
+  animation-delay: 1.22s;
+}
+
+@keyframes readingReveal {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+    filter: blur(2px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+    filter: blur(0);
+  }
 }
 
 @media (min-width: 700px) {
