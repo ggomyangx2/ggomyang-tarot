@@ -184,22 +184,10 @@ button { font: inherit; }
   font-size: .95rem;
 }
 
-.panel,
-.reading-sheet {
-  padding: 28px 22px;
-
-  color: #fffaf0;
-
-  border: none;
-  border-radius: 0;
-
-  background: transparent;
-  box-shadow: none;
-
-  backdrop-filter: none;
-  -webkit-backdrop-filter: none;
-
-  text-shadow: 0 2px 8px rgba(0,0,0,.45);
+.panel {
+  border: 1px solid rgba(234, 217, 168, .28);
+  border-radius: 28px;
+  box-shadow: var(--shadow);
 }
 
 .panel {
@@ -626,22 +614,18 @@ button { font: inherit; }
 
 .reading-sheet {
   padding: 28px 22px;
-  color: var(--ink);
+  color: #fffaf0;
 
-  border: 3px solid rgba(200, 168, 98, .85);
-  border-radius: 24px;
+  border: none;
+  border-radius: 0;
+
+  background: transparent;
+  box-shadow: none;
+
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
 
   text-shadow: 0 2px 8px rgba(0,0,0,.45);
-
-  box-shadow:
-  0 24px 60px rgba(6, 3, 10, .35),
-  0 0 18px rgba(200, 168, 98, .12);
-  
-  background:
-    linear-gradient(rgba(255,250,240,.85), rgba(255,250,240,.88)),
-    repeating-linear-gradient(0deg, transparent 0 25px, rgba(52,41,63,.04) 26px);
-  backdrop-filter: blur(0px);
-  -webkit-backdrop-filter: blur(0px);
 }
 
 .reading-heading { text-align: center; }
