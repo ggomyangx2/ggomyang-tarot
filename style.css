@@ -673,13 +673,15 @@ button { font: inherit; }
 
 .reading-block {
   margin-top: 26px;
-  padding-top: 22px;
-  border-top: 1px solid rgba(52,41,63,.12);
+  padding-top: 0;
+  border-top: none;
 }
 
 .reading-block h3 {
   color: var(--gold-soft);
   margin: 0 0 12px;
+  padding-top: 22px;
+  border-top: 1px solid rgba(234, 217, 168, .35);
   font-size: 1rem;
 }
 
@@ -714,7 +716,7 @@ button { font: inherit; }
   padding: 26px 0 0;
 
   border: 0;
-  border-top: 1px solid rgba(234, 217, 168, .35);
+  border-top: none;
 
   border-radius: 0;
   background: transparent;
