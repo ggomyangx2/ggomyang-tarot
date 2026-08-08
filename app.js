@@ -70,8 +70,6 @@ function renderResult(result) {
   const reading = card[result.orientation];
   const isReversed = result.orientation === "reversed";
 
-  document.querySelector("#cardNumber").textContent = card.number;
-  document.querySelector("#cardNameEn").textContent = card.nameEn;
   document.querySelector("#cardNameKo").textContent = card.nameKo;
   document.querySelector("#orientationBadge").textContent = isReversed ? "역방향" : "정방향";
   document.querySelector("#openingLine").textContent = reading.opening;
@@ -174,28 +172,36 @@ const retryMessages=[
 "이번 카드가 진짜일지도 몰라?✨"
 ];
 
-mainDrawButton.addEventListener("click", handleDraw);
-shareButton.addEventListener("click", shareResult);
-resetButton.addEventListener("click",()=>{
+mainDrawButton?.addEventListener("pointerup", (event) => {
+  event.preventDefault();
+  handleDraw();
+});
 
-const popup=document.querySelector("#catPopup");
+shareButton?.addEventListener("click", shareResult);
 
-const text=document.querySelector("#catMessage");
+resetButton?.addEventListener("click", () => {
+  const popup = document.querySelector("#catPopup");
+  const text = document.querySelector("#catMessage");
 
-const random=retryMessages[
-Math.floor(Math.random()*retryMessages.length)
-];
+  if (!popup || !text) {
+    resetForTesting();
+    return;
+  }
 
-text.textContent=random;
+  const random =
+    retryMessages[Math.floor(Math.random() * retryMessages.length)];
 
-popup.classList.add("show");
+  text.textContent = random;
 
-setTimeout(()=>{
+  popup.setAttribute("aria-hidden", "false");
+  popup.classList.add("show");
 
-popup.classList.remove("show");
+  setTimeout(() => {
+    popup.classList.remove("show");
+    popup.setAttribute("aria-hidden", "true");
 
-resetForTesting();
-
-},2000);
-
+    setTimeout(() => {
+      resetForTesting();
+    }, 350);
+  }, 2000);
 });
