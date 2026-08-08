@@ -669,6 +669,7 @@ button { font: inherit; }
   margin: 10px auto 0;
   color: rgba(255, 250, 240, .82);
   line-height: 1.65;
+  white-space: pre-line;
 }
 
 .reading-block {
