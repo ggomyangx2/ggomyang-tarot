@@ -625,7 +625,7 @@ button { font: inherit; }
   0 0 18px rgba(200, 168, 98, .12);
   
   background:
-    linear-gradient(rgba(255,250,240,.82), rgba(255,250,240,.86)),
+    linear-gradient(rgba(255,250,240,.85), rgba(255,250,240,.88)),
     repeating-linear-gradient(0deg, transparent 0 25px, rgba(52,41,63,.04) 26px);
   backdrop-filter: blur(0px);
   -webkit-backdrop-filter: blur(0px);
