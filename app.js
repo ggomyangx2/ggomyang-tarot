@@ -79,7 +79,8 @@ function renderResult(result) {
 
   document.querySelector("#cardNameKo").textContent = card.nameKo;
   document.querySelector("#orientationBadge").textContent = isReversed ? "역방향" : "정방향";
-  document.querySelector("#openingLine").textContent = reading.opening;
+  document.querySelector("#openingLine").textContent =
+  `오늘의 카드는 ${card.nameKo},\n${isReversed ? "역방향" : "정방향"}으로 찾아왔어요.`;
   document.querySelector("#readingText").textContent = reading.reading;
   document.querySelector("#cautionText").textContent = reading.caution;
   document.querySelector("#luckyColor").textContent = reading.lucky.color;
