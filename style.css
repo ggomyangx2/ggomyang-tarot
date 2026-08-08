@@ -739,7 +739,11 @@ button { font: inherit; }
   line-height: 1.7;
 }
 
-.result-actions { margin-top: 24px; }
+.result-actions {
+  margin-top: 24px;
+  display: flex;
+  justify-content: center;
+}
 
 .secondary-button {
   padding: 14px 16px;
