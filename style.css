@@ -681,20 +681,20 @@ button { font: inherit; }
 
 .keyword-list span {
   padding: 7px 11px;
-  border: 1px solid rgba(141,122,168,.35);
+  border: 1px solid rgba(234,217,168,.35);
   border-radius: 999px;
-  color: #5e4b72;
-  background: #f3edf6;
+  color: #fffaf0;
+  background: rgba(255,255,255,.06);
   font-size: .88rem;
 }
 
 .caution-block {
-  margin-right: -8px;
-  margin-left: -8px;
-  padding: 18px 14px;
+  margin-right: 0;
+  margin-left: 0;
+  padding: 22px 0 0;
   border: 0;
-  border-radius: 16px;
-  background: #fff0e6;
+  border-radius: 0;
+  background: transparent;
 }
 
 .luck-grid {
@@ -706,21 +706,23 @@ button { font: inherit; }
 .luck-grid div {
   min-width: 0;
   padding: 13px 8px;
+  border: 1px solid rgba(234,217,168,.22);
   border-radius: 14px;
   text-align: center;
-  background: var(--paper-soft);
+  background: rgba(255,255,255,.05);
 }
 
 .luck-grid span {
   display: block;
   margin-bottom: 5px;
-  color: var(--muted);
+  color: rgba(255,250,240,.7);
   font-size: .76rem;
 }
 
 .luck-grid strong {
   display: block;
   overflow-wrap: anywhere;
+  color: #fffaf0;
   font-size: .92rem;
 }
 
@@ -728,9 +730,9 @@ button { font: inherit; }
   position: relative;
   margin-top: 28px;
   padding: 20px 16px 16px;
-  border: 1px dashed rgba(141,122,168,.5);
+  border: 1px dashed rgba(234,217,168,.35);
   border-radius: 18px;
-  background: #f4eef7;
+  background: rgba(255,255,255,.05);
 }
 
 .cat-label {
@@ -746,6 +748,7 @@ button { font: inherit; }
 
 .cat-message p {
   margin: 0;
+  color: #fffaf0;
   line-height: 1.7;
 }
 
