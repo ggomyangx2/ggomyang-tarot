@@ -123,17 +123,28 @@ sparkles?.classList.add("sparkle-on");
   };
   image.src = card.image;
 
-  const readingSheet = document.querySelector(".reading-sheet");
-
-  readingSheet?.classList.remove("reveal-reading");
-
   showOnly(resultView);
 
-  // 강제로 리플로우해서 저장된 결과를 다시 볼 때도 애니메이션이 재생되게 함
-  if (readingSheet) {
-    void readingSheet.offsetWidth;
-    readingSheet.classList.add("reveal-reading");
-  }
+  // 리딩을 위에서 아래로 순서대로 부드럽게 공개
+  const revealItems = [
+    document.querySelector(".reading-heading"),
+    ...document.querySelectorAll(".reading-sheet .reading-block"),
+    document.querySelector(".reading-sheet .cat-message"),
+    document.querySelector(".reading-sheet .result-actions")
+  ].filter(Boolean);
+
+  revealItems.forEach((item) => {
+    item.classList.remove("reading-reveal-item");
+    item.style.animationDelay = "";
+  });
+
+  // 리플로우 후 각 요소에 애니메이션을 순차 적용
+  void resultView.offsetWidth;
+
+  revealItems.forEach((item, index) => {
+    item.style.animationDelay = `${0.32 + index * 0.14}s`;
+    item.classList.add("reading-reveal-item");
+  });
 
   window.scrollTo({ top: 0, behavior: "smooth" });
 }
