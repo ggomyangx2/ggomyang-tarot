@@ -742,7 +742,10 @@ button { font: inherit; }
 .result-actions {
   margin-top: 24px;
   display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
+  gap: 8px;
 }
 
 .secondary-button {
@@ -787,12 +790,12 @@ button { font: inherit; }
 
 }
 
-.cat-popup img{
+.cat-popup img {
+  width: 140px;
+}
 
-    width:140px;
-
-    animation:bounceCat .8s ease;
-
+.cat-popup.show img {
+  animation: bounceCat .8s ease;
 }
 
 .cat-popup p{

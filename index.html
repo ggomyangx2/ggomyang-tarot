@@ -11,14 +11,12 @@
   <link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=Song+Myung&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./style.css" />
 </head>
-
-  <div id="catPopup" class="cat-popup hidden">
+<body>
+  <div id="catPopup" class="cat-popup" aria-hidden="true">
     <img src="./assets/ui/ggomyang.png" alt="꼼양">
     <p id="catMessage"></p>
+  </div>
 
-</div>
-  
-<body>
   <video
     id="bgVideo"
     autoplay
@@ -134,7 +132,7 @@
 
         <div class="result-actions">
           <button id="shareButton" class="secondary-button" type="button">✨ 오늘의 카드 공유하기</button>
-          <button id="resetButton" class="reset-button">🌙 내 운명은 내가 개척한다!</button>
+          <button id="resetButton" class="reset-button" type="button">🌙 내 운명은 내가 개척한다!</button>
         </div>
       </article>
     </section>
