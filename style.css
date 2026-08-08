@@ -192,11 +192,14 @@ button { font: inherit; }
 
   border: none;
   border-radius: 0;
+
   background: transparent;
   box-shadow: none;
 
   backdrop-filter: none;
   -webkit-backdrop-filter: none;
+
+  text-shadow: 0 2px 8px rgba(0,0,0,.45);
 }
 
 .panel {
