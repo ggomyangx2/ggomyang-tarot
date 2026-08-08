@@ -186,9 +186,17 @@ button { font: inherit; }
 
 .panel,
 .reading-sheet {
-  border: 1px solid rgba(234, 217, 168, .28);
-  border-radius: 50px;
-  box-shadow: var(--shadow);
+  padding: 28px 22px;
+
+  color: #fffaf0;
+
+  border: none;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
 }
 
 .panel {
@@ -620,6 +628,8 @@ button { font: inherit; }
   border: 3px solid rgba(200, 168, 98, .85);
   border-radius: 24px;
 
+  text-shadow: 0 2px 8px rgba(0,0,0,.45);
+
   box-shadow:
   0 24px 60px rgba(6, 3, 10, .35),
   0 0 18px rgba(200, 168, 98, .12);
@@ -644,6 +654,7 @@ button { font: inherit; }
 }
 
 .reading-heading h2 {
+  color: #fffaf0;
   margin: 0;
   font-family: "Song Myung", serif;
   font-size: 2rem;
@@ -652,22 +663,24 @@ button { font: inherit; }
 
 .opening-line {
   margin: 10px auto 0;
-  color: var(--muted);
+  color: rgba(255, 250, 240, .82);
   line-height: 1.65;
 }
 
 .reading-block {
   margin-top: 26px;
   padding-top: 22px;
-  border-top: 1px solid rgba(52,41,63,.12);
+  border-top: 1px solid rgba(234, 217, 168, .28);
 }
 
 .reading-block h3 {
+  color: var(--gold-soft);
   margin: 0 0 12px;
   font-size: 1rem;
 }
 
 .reading-block p {
+  color: rgba(255, 250, 240, .92);
   margin: 0;
   line-height: 1.85;
   white-space: pre-line;
