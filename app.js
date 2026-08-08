@@ -1,6 +1,13 @@
 
-const STORAGE_KEY = "ggomyangTarotDailyResult.v1";
-const DAY_KEY = "ggomyangTarotDailyDate.v1";
+// URL에서 NFC 고유번호 읽기
+const urlParams = new URLSearchParams(window.location.search);
+const NFC_ID = urlParams.get("nfc") || "default";
+
+// NFC마다 오늘의 운세를 따로 저장
+const STORAGE_KEY = `ggomyangTarotDailyResult.${NFC_ID}.v1`;
+const DAY_KEY = `ggomyangTarotDailyDate.${NFC_ID}.v1`;
+
+console.log("접속한 NFC:", NFC_ID);
 
 const mainCardSection = document.querySelector(".main-card-section");
 const shuffleView = document.querySelector("#shuffleView");
