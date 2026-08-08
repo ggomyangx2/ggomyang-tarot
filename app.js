@@ -166,6 +166,36 @@ function resetForTesting() {
   location.reload();
 }
 
+const retryMessages=[
+"에이~ 마음에 안 들었구나? 😼",
+"운명도 다시 도전할 기회를 준대!",
+"이번엔 욕심내지 말고\n마음을 비워봐!",
+"꼼양이 다시 섞어줄게!",
+"이번 카드가 진짜일지도 몰라?✨"
+];
+
 mainDrawButton.addEventListener("click", handleDraw);
 shareButton.addEventListener("click", shareResult);
-resetButton.addEventListener("click", resetForTesting);
+resetButton.addEventListener("click",()=>{
+
+const popup=document.querySelector("#catPopup");
+
+const text=document.querySelector("#catMessage");
+
+const random=retryMessages[
+Math.floor(Math.random()*retryMessages.length)
+];
+
+text.textContent=random;
+
+popup.classList.add("show");
+
+setTimeout(()=>{
+
+popup.classList.remove("show");
+
+resetForTesting();
+
+},2000);
+
+});
