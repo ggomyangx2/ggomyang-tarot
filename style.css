@@ -674,7 +674,7 @@ button { font: inherit; }
 .reading-block {
   margin-top: 26px;
   padding-top: 22px;
-  border-top: 1px solid rgba(234, 217, 168, .28);
+  border-top: none;
 }
 
 .reading-block h3 {
@@ -708,8 +708,13 @@ button { font: inherit; }
 .caution-block {
   margin-right: 0;
   margin-left: 0;
-  padding: 22px 0 0;
+
+  margin-top: 28px;
+  padding: 26px 0 0;
+
   border: 0;
+  border-top: 1px solid rgba(234, 217, 168, .35);
+
   border-radius: 0;
   background: transparent;
 }
@@ -845,6 +850,8 @@ button { font: inherit; }
     text-align:center;
 
     line-height:1.7;
+
+    white-space: pre-line;
 
 }
 
