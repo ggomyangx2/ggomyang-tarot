@@ -123,7 +123,18 @@ sparkles?.classList.add("sparkle-on");
   };
   image.src = card.image;
 
+  const readingSheet = document.querySelector(".reading-sheet");
+
+  readingSheet?.classList.remove("reveal-reading");
+
   showOnly(resultView);
+
+  // 강제로 리플로우해서 저장된 결과를 다시 볼 때도 애니메이션이 재생되게 함
+  if (readingSheet) {
+    void readingSheet.offsetWidth;
+    readingSheet.classList.add("reveal-reading");
+  }
+
   window.scrollTo({ top: 0, behavior: "smooth" });
 }
 
