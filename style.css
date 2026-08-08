@@ -617,8 +617,10 @@ button { font: inherit; }
   padding: 28px 22px;
   color: var(--ink);
   background:
-    linear-gradient(rgba(255,250,240,.94), rgba(255,250,240,.96)),
+    linear-gradient(rgba(255,250,240,.82), rgba(255,250,240,.86)),
     repeating-linear-gradient(0deg, transparent 0 25px, rgba(52,41,63,.04) 26px);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
 }
 
 .reading-heading { text-align: center; }
