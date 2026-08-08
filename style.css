@@ -628,7 +628,24 @@ button { font: inherit; }
   text-shadow: 0 2px 8px rgba(0,0,0,.45);
 }
 
-.reading-heading { text-align: center; }
+.reading-heading {
+  text-align: center;
+
+  padding: 24px 20px;
+  margin-bottom: 28px;
+
+  border: 1px solid rgba(200, 168, 98, .65);
+  border-radius: 22px;
+
+  background: rgba(20, 14, 30, .48);
+
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+
+  box-shadow:
+    0 16px 35px rgba(0,0,0,.25),
+    0 0 16px rgba(200,168,98,.08);
+}
 
 .orientation-badge {
   display: inline-flex;
